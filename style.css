@@ -1,0 +1,49 @@
+/* body{
+
+    background-image: url(./assests/img/bg.jpg);
+    background-size: cover;
+    background-position: fixed;
+     background-repeat: no-repeat;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.btn1{
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: rgb(74, 183, 219);
+}
+
+.container1{
+    height: 210px;
+    background-image: url(./assests/img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+   margin-top: 10px;
+}
+
+
+.section{
+    text-align: center;
+    padding-top: 60px;
+    /* padding-left: 100px; */
+   
+}
+.section1{
+    flex: 1;
+    display: flex;
+    text-align: center;
+  
+    flex-direction: row;
+}
